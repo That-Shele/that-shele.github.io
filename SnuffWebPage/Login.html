@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://fonts.googleapis.com/css?family=Secular One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="css/Login.css" rel="stylesheet" type="text/css" />
+    <title>SNUFF - Sube de nivel donde quieras</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="GFX/Header/logo.png" alt="Snuff" class="logo" />
+            <input type="text" placeholder="Buscar..." class="searchbar" />
+            <button type="submit"><img src="GFX/Header/lupa.png" /><i class="search"></i></button>
+            <nav>
+                <ul>
+                    <li><a href="file:///C:/Users/MINEDUCYT/Desktop/Snuff%20Webpage/index.html" class="button">Inicio</a>
+                    <li><a href="file:///C:/Users/MINEDUCYT/Desktop/Snuff%20Webpage/About.html" class="button">Sobre Snuff</a>
+                    <li><a href="#" class="button">Ingresar</a>
+                    <li><a href="file:///C:/Users/MINEDUCYT/Desktop/Snuff%20Webpage/Shop.html" class="button">Intercambios</a>
+                    <li><a href="file:///C:/Users/MINEDUCYT/Desktop/Snuff%20Webpage/Contact.html" class="button">Contacto</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img src="GFX/About/cropp.png" alt="Interdivision Image" class="interdivision" />
+    <section>
+        <h1>No has iniciado sesión.</h1>
+        <p>Inicia sesión para disfrutar de toda la experiencia Snuff</p>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="GFX/Login/icon.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="containerlogin">
+                    <label for="uname"><b>Nombre de usuario o E-Mail</b></label><br />
+                    <input type="text" placeholder="Ingrese su usuario o e-mail" name="uname" required><br />
+
+                    <label for="psw"><b>Contraseña</b></label><br />
+                    <input type="password" placeholder="Ingrese su contraseña" name="psw" required><br />
+        
+                    <button type="submit" class="login">Iniciar sesión</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Mantener sesión iniciada
+                    </label>
+                </div>
+
+            <div class="containerlogin" style="background-color:#0d0178">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                <span class="psw">Olvidé mi <a href="#">contraseña</a></span>
+            </div>
+            </form>
+        </div>
+
+        <script>
+            var modal = document.getElementById('id01');
+
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+    </section>
+    <footer>
+        <h1>Donde quiera que estés, cuando quieras.</h1>
+        <p>
+            <strong>
+                En Snuff te agradecemos por tomarnos en cuenta, ayudarnos a crecer y
+                ser parte de este ambicioso proyecto, querid@ usuari@.
+            </strong>
+        </p>
+        <h2>Disclaimer</h2>
+        <strong>
+            Snuff isn’t endorsed by no one and doesn’t reflect the views or opinions of the game developers or
+            anyone officially involved in producing or managing the videogames presented in Snuff.
+            All games are trademarks or registered trademarks of their respective publishers.
+        </strong>
+        <hr color="black" width="85%" />
+        <small>&copy;2022 Snuff. All rights reserved.</small>
+    </footer>
+</body>
+</html>
