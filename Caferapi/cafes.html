@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="stilos.css" />
+    <title></title>
+</head>
+<body style="background:peru">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color:white"><img src="ImagenesPaginaweb/logo.png" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-label="true" href="HtmlPage.html" style="color:white">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Info.html" style="color:white">INFORMACIÓN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                            MENÚ
+                        </a>
+                        <ul class="dropdown-menu" style="background: #8A5613">
+                            <li><a class="dropdown-item" style="color: white; background-color: #8A5613">CAFÉS</a></li>
+                            <li><a class="dropdown-item" href="postres.html" style="color: white; background-color: #8A5613">POSTRES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-label="true" href="Contact.html" style="color:white">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-success" style="background-color: peru; border-color: peru " type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cafes">
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Americano.png" alt="Americano" style="width:50%">
+                    <h1>Café tipo "Americano"</h1>
+                    <p class="price">$4.99</p>
+                    <div class="texto">
+                        <p>Un café popular combinado con agua caliente que provee una version más potente del café tradicional.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Breve.png" alt="Breve" style="width:50%">
+                    <h1>Café tipo "Breve"</h1>
+                    <p class="price">$3.99</p>
+                    <div class="texto">
+                        <p>Café espresso de leche half&half calentado. Perfecto para un pequeño vaso durante los ratos libres</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Campfire Mocha.png" alt="Campfire Mocha" style="width:50%">
+                    <h1>Café Mocha tipo Campfire</h1>
+                    <p class="price">$6.99</p>
+                    <div class="texto">
+                        <p>Chocolate caliente mezclado con leche, combinado con espresso y decorado con crema batida.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Cappuccino.png" alt="Cappuccino" style="width:50%">
+                    <br />
+                    <h1>Cappuccino</h1>
+                    <p class="price">$4.99</p>
+                    <div class="texto">
+                        <p>Espresso y leche convencional mezclado con una capa visible de espuma que relaja el paladar.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Caramel High Rise.png" alt="Caramel High Rise" style="width:50%">
+                    <h1>High Rise</h1>
+                    <p class="price">$4.50</p>
+                    <div class="texto">
+                        <p>Espresso y leche caliente combinada con caramelo, decorado con crema batida y salsa de caramelo.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Cold Press.png" alt="Cold Press" style="width:50%">
+                    <h1>Café helado</h1>
+                    <p class="price">$2.99</p>
+                    <div class="texto">
+                        <p>Café servido en un vaso largo con cubos de hielo. Bueno para refrescarse ante el calor.</p>
+                        <br />
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Depth Charge.png" alt="Depth Charge" style="width:50%">
+                    <h1>"Carga Profunda"</h1>
+                    <p class="price">$1.99</p>
+                    <div class="texto">
+                        <p>Café recién servido mezclado con un poco de espresso. Barato, ligero y fácil de hacer</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Espresso.png" alt="Espresso" style="width:50%">
+                    <h1>Espresso</h1>
+                    <p class="price">$0.99</p>
+                    <div class="texto">
+                        <p>El espresso de toda la vida. Fácil de preparar y el más barato del menú. Perfecto para no perder el tiempo yendo al trabajo.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/White Chocolate Espresso Shaker.png" alt="WCES" style="width:50%">
+                    <h1>Café espresso de chocolate blanco</h1>
+                    <p class="price">$9.99</p>
+                    <div class="texto">
+                        <p>Espresso con chocolate blanco.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Malted Mocha.png" alt="Malted Mocha" style="width:50%">
+                    <h1>Mocha Malteado</h1>
+                    <p class="price">$4.99</p>
+                    <div class="texto">
+                        <p>Chocolate mezclado con leche malteada y espresso, decorado con crema batida y trocitos de chocolate. </p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Mocha.png" alt="Mocha" style="width:50%">
+                    <h1>Café tipo "Mocha"</h1>
+                    <p class="price">$3.99</p>
+                    <div class="texto">
+                        <p>Chocolate y espresso con leche.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="product">
+                    <img src="ImagenesPaginaweb/cafes/Vanilla Espresso Shaker.png" alt="Vanilla Espresso Shaker" style="width:50%">
+                    <h1>Café espresso de vainilla</h1>
+                    <p class="price">$3.99</p>
+                    <div class="texto">
+                        <p>Espresso malteado con vainilla y leche.</p>
+                    </div>
+                    <p><button class="btn btn-success">Comprar</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="site-information">
+            <p>
+                &copy; 2024  Derechos reservados por la compañia  <a href="HtmlPage.html" style="text-decoration: underline">Caferapi&trade;</a>.
+            </p>
+
+            <a href="#" aria-label="Privacy Policy">Politica de privacidad</a>
+            <a href="#" aria-label="Terms of Use">Terminos de uso</a>
+        </div>
+    </footer>
+</body>
+</html>
